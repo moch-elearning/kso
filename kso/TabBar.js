@@ -1,0 +1,3 @@
+//>>built
+define("kso/TabBar",["dojo/_base/declare","dojox/mobile/TabBar","dojox/mobile/TabBarButton"],function(b,c,a){return b("moch.dijit.TabBar",[c],{fill:"always",fixed:"bottom",center:!1,barType:"flatTab",postCreate:function(){this.addChild(new a({moveTo:"kso_home_view","class":"tabBarButtonHome",icon1:"kso/images/btn_home.png"}));this.addChild(new a({moveTo:"kso_planlist_view","class":"tabBarButtonPlan",icon1:"kso/images/btn_plan.png"}));this.addChild(new a({moveTo:"kso_problemlist_view","class":"tabBarButtonProblem",
+icon1:"kso/images/btn_problem.png"}));this.addChild(new a({"class":"tabBarButtonOption",icon1:"kso/images/btn_option.png"}))}})});
