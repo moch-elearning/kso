@@ -6,7 +6,7 @@ var dojoConfig = {
     locale: 'da',
     keep_locale: true,
     domain_name: 'essens',  // This is the only thing needed to be replaced in a new installation
-    service_uri: '/service',
+    service_uri: 'https://phoenix.moch.dk/service',
     parseOnLoad: false,
     sse_events: true,
     packages: [
