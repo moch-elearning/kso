@@ -1,2 +1,0 @@
-//>>built
-define("kso/TabBarLogin",["dojo/_base/declare","dojox/mobile/TabBar","dojox/mobile/TabBarButton"],function(b,c,a){return b("moch.dijit.TabBarLogin",[c],{fill:"always",fixed:"bottom",center:!1,barType:"flatTab",postCreate:function(){this.addChild(new a({label:"Log ind",moveTo:"login_view","class":"tabBarButtonLogin"}));this.addChild(new a({label:"Opret bruger",moveTo:"create_user_view","class":"tabBarButtonCreateUser"}));this.addChild(new a({label:"Glemt din kode?",moveTo:"forgot_password_view","class":"tabBarButtonForgotPassword"}))}})});

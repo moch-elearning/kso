@@ -1,3 +1,0 @@
-//>>built
-define("kso/BaseStoreList",["dojo/_base/declare","dojo/_base/Deferred","dojox/mobile/EdgeToEdgeStoreList"],function(e,f,g){return e([g],{constructor:function(c){this.inherited(arguments)},onUpdate:function(c,b){var a=this.getChildren();b===a.length?this.addChild(this.createListItem(c)):a[b].set("item",c)},refresh:function(){if(!this.store)return null;var c=this,b=this.store.query(this.query,this.queryOptions);f.when(b,function(a){if(a.items)a=a.items;b.observe&&b.observe(function(a,b,d){if(-1==b)c.onUpdate(a,
-d);else if(-1==d)c.onDelete(a,b);else c.onUpdate(a,d)},!0);c.onComplete(a)},function(a){c.onError(a)});return b}})});
