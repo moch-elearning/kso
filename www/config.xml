@@ -6,20 +6,14 @@
 
     <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
 
-    <!--access origin="https://phoenix.moch.dk"/-->
-
-    <!-- content src="index.html" /-->
+    <content src="index.html" />
    
-    <log level="DEBUG"/>
     <preference name="phonegap-version" value="2.9.0" />
     <preference name="useBrowserHistory" value="true" />
     <preference name="exit-on-suspend" value="false" />
 <plugins>
-    <plugin name="App" value="org.apache.cordova.App"/>
-    <plugin name="Device" value="org.apache.cordova.Device"/>
     <plugin name="Notification" value="org.apache.cordova.Notification"/>
     <plugin name="Storage" value="org.apache.cordova.Storage"/>
     <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
-    <plugin name="Echo" value="org.apache.cordova.Echo" />
 </plugins>
 </cordova>
