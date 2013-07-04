@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cordova>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.hello-world"
+        version   = "1.0.0">
     <name>KSOApp</name>
 
     <description>KSO mobile application</description>
@@ -19,9 +22,10 @@
     <preference name="phonegap-version"  value="2.9.0" />
     <preference name="useBrowserHistory" value="true" />
     <preference name="exit-on-suspend"   value="false" />
-<plugins>
-    <plugin name="Notification" value="org.apache.cordova.Notification"/>
-    <plugin name="Storage" value="org.apache.cordova.Storage"/>
-    <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
-</plugins>
-</cordova>
+
+    <plugins>
+        <plugin name="Notification" value="org.apache.cordova.Notification"/>
+        <plugin name="Storage" value="org.apache.cordova.Storage"/>
+        <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
+    </plugins>
+</widget>
