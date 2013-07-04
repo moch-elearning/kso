@@ -4,13 +4,21 @@
 
     <description>KSO mobile application</description>
 
+    <author href="http://www.moch.dk" email="support@moch.com">
+        MOCH A/S
+    </author>
+
     <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
 
     <content src="index.html" />
-   
-    <preference name="phonegap-version" value="2.9.0" />
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    <preference name="permissions"       value="none"/>
+
+    <preference name="phonegap-version"  value="2.9.0" />
     <preference name="useBrowserHistory" value="true" />
-    <preference name="exit-on-suspend" value="false" />
+    <preference name="exit-on-suspend"   value="false" />
 <plugins>
     <plugin name="Notification" value="org.apache.cordova.Notification"/>
     <plugin name="Storage" value="org.apache.cordova.Storage"/>
