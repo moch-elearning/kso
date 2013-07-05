@@ -1,1 +1,309 @@
-button.mochBtn {font-family: Helvetica; font-size: 17px; font-weight: bold; height: 32px; margin: 10px 0;}input.mochInput {font-family: Helvetica; font-size: 17px; font-weight: bold; height: 32px;}textarea.mochTextArea {font-family: Helvetica; font-size: 17px; font-weight: bold; width: 99%; height: 60%; font-size: 17px;}input.mblTextBox {width: 98%;}.tableContainer-labelCell {font-family: Helvetica; font-size: 17px; font-weight: bold; height: 32px;}input[type="radio"], input[type="checkbox"] {width: 30px; height: 30px;}.mblRadioButtonChecked::after, .mblRadioButton:checked::after,.mblCheckBoxChecked::after, .mblCheckBox:checked:after {width: 0.45em; height: 1em; top: 2px; left: 9px; border-width: 0.2em;}.headingActionHome {margin: 0; padding: 10px; display: block; background-color: #e1f2f2;}.headingActionPlan {margin: 0; padding: 10px; display: block; background-color: #f0f4db;}.headingActionProblem {margin: 0; padding: 10px; display: block; background-color: #fef5c2;}.headingAction-closed {display: none;}.mblHeading {background-image: none; text-shadow: none;}.headingHome {text-transform: uppercase; background-color: #95c1bf !important; background: linear-gradient(top, #95c1bf 6%, #ffffff 0%, #c1dbd9 27%, #95c1bf 50%) !important; background: -webkit-linear-gradient(top, #95c1bf 6%, #ffffff 0%, #c1dbd9 27%, #95c1bf 50%) !important;}.headingPlan {text-transform: capitalize; background-color: #bdcb72 !important; background: linear-gradient(top, #bdcb72 6%, #ffffff 2%, #dde4b5 27%, #bdcb72 50%) !important; background: -webkit-linear-gradient(top, #bdcb72 6%, #ffffff 2%, #dde4b5 27%, #bdcb72 50%) !important;}.headingProblem {text-transform: capitalize; background-color: #f0d533 !important; background: linear-gradient(top, #f0d533 6%, #ffffff 0%, #f6e686 27%, #f0d533 50%) !important; background: -webkit-linear-gradient(top, #f0d533 6%, #ffffff 0%, #f6e686 27%, #f0d533 50%) !important;}.headingOption {text-transform: capitalize; background-color: #95c1bf !important; background: linear-gradient(top, #95c1bf 6%, #ffffff 0%, #c1dbd9 27%, #95c1bf 50%) !important; background: -webkit-linear-gradient(top, #95c1bf 6%, #ffffff 0%, #c1dbd9 27%, #95c1bf 50%) !important;}.mblColorDefaultSel {background-color: #b0b2ab; background-image: none;}.mblEdgeToEdgeCategory {background-image: none; text-shadow: none;}.categoryHomePlan {background-color: #bdcb72;}.categoryHomeProblem {background-color: #f0d533;}.categoryPlan {background-color: #dde4b5;}.categoryProblem {background-color: #f6e686;}.tableContainer-labelCell {color: black;}.mblEdgeToEdgeList {background-color: white !important;}.mblListItem {color: black; background-color: white !important;}.mblToolBarButtonBody {display: inline-block; position: relative; overflow: hidden; border-radius: 15px; border: none;}.mblToolBarButton, .mblToolBarButtonSelected {display: inline-block; position: relative; cursor: pointer; margin: 6px; padding: 0 10px; height: 29px; line-height: 29px; text-align: center; font-family: Helvetica; font-size: 13px; font-weight: bold; vertical-align: middle; text-transform: uppercase;}.mblColorDefault, mblColorDefaultSel {color: white; background-color: #b0b2ab; background-image: none;}.toolBarButton {border-color: transparent !important; background-image: none !important; background-color: transparent !important; -webkit-box-shadow: none !important;}.mblTabBarFlatTab {height: 44px;}.mblTabBarFlatTab .mblTabBarButton {padding: 0; text-shadow: none;}.mblTabBarButtonIconArea {width: 100%;}.tabBarButtonHome, .tabBarButtonOption {background-color: #95c1bf; background: linear-gradient(top, #95c1bf 6%, #ffffff 0%, #c1dbd9 27%, #95c1bf 50%) !important; background: -webkit-linear-gradient(top, #95c1bf 6%, #ffffff 0%, #c1dbd9 27%, #95c1bf 50%) !important; height: 100%; width: 25%;}.tabBarButtonPlan {background-color: #bdcb72; background: linear-gradient(top, #bdcb72 6%, #ffffff 2%, #dde4b5 27%, #bdcb72 50%) !important; background: -webkit-linear-gradient(top, #bdcb72 6%, #ffffff 2%, #dde4b5 27%, #bdcb72 50%) !important; height: 100%; width: 25%;}.tabBarButtonProblem {background-color: #f0d533; background: linear-gradient(top, #f0d533 6%, #ffffff 0%, #f6e686 27%, #f0d533 50%) !important; background: -webkit-linear-gradient(top, #f0d533 6%, #ffffff 0%, #f6e686 27%, #f0d533 50%) !important; height: 100%; width: 25%;}.tabBarButtonLogin {background-color: #95c1bf; background: linear-gradient(top, #95c1bf 6%, #ffffff 0%, #c1dbd9 27%, #95c1bf 50%) !important; background: -webkit-linear-gradient(top, #95c1bf 6%, #ffffff 0%, #c1dbd9 27%, #95c1bf 50%) !important; height: 100%; width: 33%; padding-top: 15px !important;}.tabBarButtonCreateUser {background-color: #bdcb72; background: linear-gradient(top, #bdcb72 6%, #ffffff 2%, #dde4b5 27%, #bdcb72 50%) !important; background: -webkit-linear-gradient(top, #bdcb72 6%, #ffffff 2%, #dde4b5 27%, #bdcb72 50%) !important; height: 100%; width: 34%; padding-top: 15px !important;}.tabBarButtonForgotPassword {background-color: #f0d533; background: linear-gradient(top, #f0d533 6%, #ffffff 0%, #f6e686 27%, #f0d533 50%) !important; background: -webkit-linear-gradient(top, #f0d533 6%, #ffffff 0%, #f6e686 27%, #f0d533 50%) !important; height: 100%; width: 33%; padding-top: 15px !important;}.mobile body {background-color: #f0f0f0;}#login_view {background-image: url('/kso/kso/images/backgr_blue.png') !important; background-size: 100% auto;}#create_user_view {background-image: url('/kso/kso/images/backgr_green.png') !important; background-size: 100% auto;}#forgot_password_view {background-image: url('/kso/kso/images/backgr_yellow.png') !important; background-size: 100% auto;}
+button.mochBtn {
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: bold;
+    height: 32px;
+    margin: 10px 0;
+}
+
+input.mochInput {
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: bold;
+    height: 32px;
+}
+
+textarea.mochTextArea {
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: bold;
+    width: 99%;
+    height: 60%;
+    font-size: 17px;
+}
+
+input.mblTextBox {
+    width: 98%;
+}
+
+.tableContainer-labelCell {
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: bold;
+    height: 32px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+}
+
+.mblListItemIcon {
+    margin-right: 2px !important;
+}
+
+.mblRadioButtonChecked::after, .mblRadioButton:checked::after,
+.mblCheckBoxChecked::after, .mblCheckBox:checked:after {
+    width: 0.45em;
+    height: 1em;
+    top: 2px;
+    left: 9px;
+    border-width: 0.2em;
+}
+
+.mblListItemRightText {
+    color: black !important;
+}
+
+/* ACTION BAR */
+.headingActionHome {
+/*    background-image: none; */
+    margin: 0;
+    display: block;
+    background-color: #e1f2f2;
+}
+
+.headingActionPlan {
+/*    background-image: none; */
+    margin: 0;
+    display: block;
+    background-color: #f1f4db;
+}
+
+.headingActionProblem {
+/*    background-image: none; */
+    margin: 0;
+    display: block;
+    background-color: #cfe5f8;
+}
+
+.headingAction-closed {
+    display: none;
+}
+
+/* HEADING */
+.mblHeading {
+    background-image: none;
+    text-shadow: none;
+}
+
+.headingHome {
+    text-transform: uppercase;
+    background-color: #7fa4a2 !important;
+    background: linear-gradient(top, #7fa4a2 6%, #ffffff 0%, #95c1bf 27%, #7fa4a2 50%) !important;
+    background: -webkit-linear-gradient(top, #7fa4a2 6%, #ffffff 0%, #95c1bf 27%, #7fa4a2 50%) !important;
+}
+
+.headingPlan {
+    text-transform: capitalize;
+    background-color: #9fab61 !important;
+    background: linear-gradient(top, #9fab61 6%, #ffffff 2%, #bdcb72 27%, #9fab61 50%) !important;
+    background: -webkit-linear-gradient(top, #9fab61 6%, #ffffff 2%, #bdcb72 27%, #9fab61 50%) !important;
+}
+
+.headingProblem {
+    text-transform: capitalize;
+    background-color: #718ea9 !important;
+    background: linear-gradient(top, #718ea9 6%, #ffffff 0%, #89adcc 27%, #718ea9 50%) !important;
+    background: -webkit-linear-gradient(top, #718ea9 6%, #ffffff 0%, #89adcc 27%, #718ea9 50%) !important;
+}
+
+.headingAbout {
+    text-transform: capitalize;
+    background-color: #95c1bf !important;
+    background: linear-gradient(top, #95c1bf 6%, #ffffff 0%, #95c1bf 27%, #95c1bf 50%) !important;
+    background: -webkit-linear-gradient(top, #95c1bf 6%, #ffffff 0%, #95c1bf 27%, #95c1bf 50%) !important;
+}
+
+/* DEFAULT SELECT */
+.mblColorDefaultSel {
+    background-color: #b0b2ab;
+    background-image: none;
+}
+
+/* CATEGORY */
+.mblEdgeToEdgeCategory {
+    background-image: none;
+    text-shadow: none;
+}
+
+.categoryHomePlan {
+    background-color: #bdcb72;
+}
+
+.categoryHomeProblem {
+    background-color: #89adcc;
+}
+
+.categoryPlan {
+    background-color: #bdcb72;
+}
+
+.categoryProblem {
+    background-color: #89adcc;
+}
+
+/* ACCORDION */
+.mblAccordionTitle, .mblAccordionTitleSelected {
+    background-image: none;
+}
+
+.accordionAbout {
+    background-color: #e1f2f2;
+}
+
+.mblAccordionPane {
+    padding: 5px;
+    background-color: white;
+    font-family: Helvetica;
+    font-size: 17px;
+}
+
+.mblAccordionTitleLabel, .mblAccordionTitleSelected {
+    color: white !important;
+}
+
+/* TABLE */
+.tableContainer-labelCell {
+    color: black;
+}
+
+/* LIST */
+.mblEdgeToEdgeList {
+    background-color: white !important;
+}
+
+.mblListItem {
+    color: black;
+    background-color: white !important;
+}
+
+/* BUTTON */
+.mblToolBarButtonBody {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    border: none;
+}
+
+.mblToolBarButton, .mblToolBarButtonSelected {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin: 6px;
+    padding: 0 10px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.mblColorDefault, mblColorDefaultSel {
+    color: white;
+    background-color: #a0a0a0;
+    background: linear-gradient(top, #f0f0f0 0%, #c8c8c8 6%, #a0a0a0 100%) !important;
+    background: -webkit-linear-gradient(top, #f0f0f0 0%, #c8c8c8 6%, #a0a0a0 100%) !important;
+}
+
+.toolBarButton {
+    border-color: transparent !important;
+    background-image: none !important;
+    background-color: transparent !important;
+    -webkit-box-shadow: none !important;
+}
+
+/* TABBAR */
+.mblTabBarFlatTab {
+    height: 44px;
+}
+
+.mblTabBarFlatTab .mblTabBarButton {
+    padding: 0;
+    text-shadow: none;
+}
+
+.mblTabBarButtonIconArea {
+    width: 100%;
+}
+
+.tabBarButtonHome, .tabBarButtonAbout {
+    background-color: #7fa4a2;
+    background: linear-gradient(top, #7fa4a2 6%, #ffffff 0%, #c1dbd9 27%, #7fa4a2 50%) !important;
+    background: -webkit-linear-gradient(top, #7fa4a2 6%, #ffffff 0%, #c1dbd9 27%, #7fa4a2 50%) !important;
+    height: 100%;
+    width: 25%;
+}
+
+.tabBarButtonPlan {
+    background-color: #9fab61;
+    background: linear-gradient(top, #9fab61 6%, #ffffff 2%, #dde4b5 27%, #9fab61 50%) !important;
+    background: -webkit-linear-gradient(top, #9fab61 6%, #ffffff 2%, #dde4b5 27%, #9fab61 50%) !important;
+    height: 100%;
+    width: 25%;
+}
+
+.tabBarButtonProblem {
+    background-color: #718ea9;
+    background: linear-gradient(top, #718ea9 6%, #ffffff 0%, #c1dbd9 27%, #718ea9 50%) !important;
+    background: -webkit-linear-gradient(top, #718ea9 6%, #ffffff 0%, #c1dbd9 27%, #718ea9 50%) !important;
+    height: 100%;
+    width: 25%;
+}
+
+.tabBarButtonLogin {
+    background-color: #95c1bf;
+    background: linear-gradient(top, #95c1bf 6%, #ffffff 0%, #c1dbd9 27%, #95c1bf 50%) !important;
+    background: -webkit-linear-gradient(top, #95c1bf 6%, #ffffff 0%, #c1dbd9 27%, #95c1bf 50%) !important;
+    height: 100%;
+    width: 33%;
+    padding-top: 15px !important;
+}
+
+.tabBarButtonCreateUser {
+    background-color: #bdcb72;
+    background: linear-gradient(top, #bdcb72 6%, #ffffff 2%, #dde4b5 27%, #bdcb72 50%) !important;
+    background: -webkit-linear-gradient(top, #bdcb72 6%, #ffffff 2%, #dde4b5 27%, #bdcb72 50%) !important;
+    height: 100%;
+    width: 34%;
+    padding-top: 15px !important;
+}
+
+.tabBarButtonForgotPassword {
+    background-color: #f0d533;
+    background: linear-gradient(top, #f0d533 6%, #ffffff 0%, #f6e686 27%, #f0d533 50%) !important;
+    background: -webkit-linear-gradient(top, #f0d533 6%, #ffffff 0%, #f6e686 27%, #f0d533 50%) !important;
+    height: 100%;
+    width: 33%;
+    padding-top: 15px !important;
+}
+
+/* BODY */
+.mobile body {
+    background-color: #f0f0f0;
+}
+
+/* BACKGROUND */
+#login_view {
+    background-image: url('/kso/kso/images/backgr_blue.png') !important;
+    background-size: 100% auto;
+}
+
+#create_user_view {
+    background-image: url('/kso/kso/images/backgr_green.png') !important;
+    background-size: 100% auto;
+}
+
+#forgot_password_view {
+    background-image: url('/kso/kso/images/backgr_yellow.png') !important;
+    background-size: 100% auto;
+}
+
+#kso_about_view {
+    background-color: white;
+    color: black;
+}
