@@ -187,6 +187,10 @@ input[type="radio"], input[type="checkbox"] {
     border: none;
 }
 
+.mblToolBarButton {
+    margin: 0;
+}
+
 .mblToolBarButton, .mblToolBarButtonSelected {
     display: inline-block;
     position: relative;
