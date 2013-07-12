@@ -14,6 +14,14 @@ var dojoConfig = {
         {
             name: 'kso',
             location: 'kso'
+        },
+        {
+            name: 'dojo',
+            location: 'dojo'
+        },
+        {
+            name: 'dojox',
+            location: 'dojox'
         }
     ]
 };
