@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "dk.moch.kso"
         version   = "1.0.0">
-    <name>MIN HANDLEPLAN</name>
+    <name>Min Handleplan</name>
 
     <description>
         Komiteen for Sundhedsoplysning udbyder kurser til mennesker med kronisk/langvarig sygdom.
